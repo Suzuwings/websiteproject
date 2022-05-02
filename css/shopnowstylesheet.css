@@ -1,0 +1,107 @@
+html{
+    overflow-x: hidden;
+}
+
+
+.main-shop-now{
+    color:white;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.banner-area{
+    background-image: linear-gradient(rgba(59, 56, 56, 0.5), rgba(142, 89, 185, 0.5)),url(../images/animefigurebanner.jpg);
+    padding: 15em;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    background-size: 1950px 500px;
+    background-attachment: scroll;
+}
+
+.banner-area::afer{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    
+    background: #130f40;
+    opacity: .5;
+    z-index: -1;
+}
+
+.banner-area h1{
+    color:white;
+    font-size: 70px;
+    
+}
+
+
+.content-area{
+    display: block;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.shop-container{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.products-container img{
+    padding: 15px;
+    border-radius: 25px;
+    margin: 10px;
+    
+    
+}
+
+.product{
+    text-align: center;
+    padding: 2rem 1rem;
+    background: white;
+    box-shadow: 0 .5rem 1rem black;
+    outline: .1rem solid -1.5rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.product:hover h3{
+    color: #85ee84;
+}
+    
+.product a{
+    text-decoration: none;
+    background-color: #85ee84;
+    color: #9370DB;
+    padding: 3px;
+    border-radius: 5px;
+}
+    
+.product a:hover{
+    box-shadow: inset 100px 0 0 0 #FFC0CB;
+}
+
+@media screen and (max-width: 768px) {
+.banner-area h1{
+    font-size: 50px;
+    word-wrap: normal;
+    
+    
+}
+}

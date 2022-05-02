@@ -1,0 +1,145 @@
+body{
+    background-color: #333233; 
+}
+  
+
+
+.main-careers{
+    
+    color: white;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    
+}
+
+.main-careers-container h1{
+   color: #85ee84;
+   align-items: center;
+}
+
+fieldset{
+    background-color: #9370DB;
+    border-width: 5px;
+    border-color: white;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 12px;
+    
+    
+}
+
+legend{
+    color:#85ee84;
+    font-size: 30px;
+    
+}
+
+textarea {
+    display: block;
+    width: 90%;
+    height: 100px;
+}
+
+label{
+    display: inline-block;
+    width: 150px;
+    
+    
+
+}
+
+input[type=text]{
+    width: 200px;
+}
+input[type=email]{
+    width: 200px;
+
+}
+input[type=tel]{
+    width: 200px;
+
+}
+input[type=email]{
+    width: 200px;
+
+}
+
+select{
+    width: 200px;
+}
+
+
+
+#fnBox{
+    margin-bottom: 10px;
+}
+
+#lnBox{
+    margin-bottom: 10px;
+}
+
+
+#mailBox{
+    margin-bottom: 10px;
+}
+
+
+#phoneBox{
+    margin-bottom: 10px;
+    
+}
+
+#animeBox{
+    margin-bottom: 10px;
+
+}
+
+#AboutYouBox{
+    margin-bottom: 10px;
+}
+
+#myFile{
+    margin-bottom: 10px;
+}
+
+
+#positionBox{
+    margin-bottom: 10px;
+}
+
+.availabilityLabel{
+    margin-bottom: 10px;
+}
+
+
+
+
+.main-careers h2{
+    color: #85ee84;
+}
+
+
+
+
+footer#bottom{
+    position: relative;
+    
+}
+
+input[type="submit"] {
+    height: 50px;
+    width: 100px;
+    color:#85ee84;
+    background-color: #9370DB;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #fbf9fd;
+    transition: ease-out 0.3s;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ input[type="submit"]:hover{
+    box-shadow: inset 100px 0 0 0 #fbf9fd;
+ }

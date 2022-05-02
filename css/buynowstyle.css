@@ -1,0 +1,143 @@
+.main-buy-now{
+    color: white;
+    padding-left: 30vw;
+    padding-right: 30vw;
+ }
+
+
+fieldset#contact-information{
+    border: 0;
+}
+
+fieldset#Address-information{
+    border: 0;
+}
+
+aside#reg1Aside {
+    background: #9370DB;
+    padding: 0px 20px;
+    margin-bottom: 220px;
+    min-width: 450px;
+
+ }
+
+
+input[type=text]{
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+}
+input[type=email]{
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+}
+
+
+input[type=tel]{
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+}
+
+
+input[type=email]{
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+}
+
+#address{
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+#address2{
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+#selectFigure{
+    width: 250px;
+    height: 80px;
+    font-size: 20px;
+}
+
+#State{
+    margin-bottom: 10px;
+}
+
+
+
+label{
+    font-size: 20px;
+}
+
+aside{
+    font-size: 20px;
+    
+}
+
+#regName{
+    margin-left: 30px;
+}
+#regEmail{
+    margin-left: 30px;
+}
+#regPhone{
+    margin-left: 30px;
+}
+#regFigure{
+    margin-left: 30px;
+}
+#regTotal{
+    margin-left: 30px;
+}
+
+
+
+footer#bottom{
+    position: relative;
+    
+}
+
+/* buynow2.html css specific */
+fieldset#cards{
+    border: 0;
+}
+
+#cardHolder{
+    margin-bottom: 10px;
+}
+
+#expDate{
+    margin-bottom: 10px;
+}
+
+#cardNumber{
+    margin-bottom: 10px;
+}
+
+#cvc{
+    width: 120px;
+}
+
+form#paymentForm{
+   
+    margin-bottom: 590px;
+}
+
+@media screen and (max-width: 768px) {
+    .main-buy-now{
+        padding-left: 150px;
+    }
+    aside#reg1Aside{
+        margin-bottom: 15px;
+    
+    }
+
+    form#paymentForm{
+   
+        margin-bottom: 350px;
+    }
+}

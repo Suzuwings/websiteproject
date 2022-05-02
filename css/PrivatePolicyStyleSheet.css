@@ -1,0 +1,26 @@
+.main-privacy-policy{
+    color:white;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.main-privacy-policy h1{
+    color:#9370DB;
+}
+
+.main-privacy-policy h2{
+    color: #85ee84;
+    
+}
+.main-privacy-policy a{
+    color: #FFC0CB;
+}
+.main-privacy-policy a:hover{
+    color: #85ee84;
+}
+
+.main-privacy-policy a:visited {
+    color: #9370DB;;
+  }

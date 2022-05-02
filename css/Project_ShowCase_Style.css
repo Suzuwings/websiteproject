@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Dosis', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    max-width: 1600px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    
+    font-family: 'Dosis', sans-serif;
+ 
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background: #966a41;
+    color: white;
+}
+
+
+.nav-menu{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    white-space: nowrap;
+    
+    
+}
+.nav-menu li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu li a{
+    transition: all 0.3s ease 0s;
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav-menu li a:hover {
+    color: #FFC0CB;
+   
+
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px 20px; 
+    border-radius: 12px;
+    transition: all 0.3s ease 0s;
+    background-color: #df96a3;
+    font-family:  'Dosis', sans-serif;
+    border: none;
+    cursor: pointer;
+    color: #966a41;
+    
+
+
+}
+
+#navbar-logo{
+    
+    margin-right: auto;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+#project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0px;
+
+}
+
+.banner-area{
+    background-image: url(../images/welcomecup1.jpg);
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+    height: 650px;
+    width: 100%;
+    
+    
+}
+
+.banner-area h3{
+    font-size: 2.73rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:#2B262D;
+
+}
+
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery img{
+    padding: 15px;
+    border: 8px solid #3c793a;
+    border-radius: 25px;
+    margin: 20px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 10%;
+    background: #966a41;
+    color: white;
+}
+
+.text{
+    opacity: 0;
+}
+
+
+  
+
+
+
+@media screen and (max-width: 768px) {
+
+    .text h1{
+        text-align: center;
+        font-size: 50px;
+
+    }
+
+    .text p{
+        text-align: left;
+    }
+
+    .text{
+        opacity: 100;
+        color: white;
+        padding: 30px;
+        font-size: 20px;
+    }
+
+    .nav-menu li{
+        padding: 0px 1px;
+    }
+
+    .nav-menu{
+        gap: 10px;
+    }
+
+
+
+    .banner-area{
+        min-height: 350px;
+        height: auto;
+        background-image: url(../images/welcomecup3.jpg);
+         
+    }
+
+    .banner-area h3{
+        font-size: 1.975em;
+    }
+
+    .banner-area p{
+        font-size: 0.9em;
+
+    }
+
+
+    .text-area{
+        width: 100%;
+
+        
+
+    }
+
+
+   
+
+   
+}
